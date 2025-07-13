@@ -1,0 +1,15 @@
+1 - git init // in your local folder project
+2 - git status // check file before add to git cloud 
+3 - git add . // add to state in your local 
+4 - git commit -m "your Comment" 
+5- git branch -M main // if your git init you will stay on brach local (Master) so i need use it for change branch
+6- git remote add origin https://github.com/phorakden2024/GitNote.git
+
+7 - git push -u origin main // if yon not have branch (only used)
+#Error
+To https://github.com/phorakden2024/GitNote.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/phorakden2024/GitNote.git'
+
+use run step 8 if meet step 7 Error
+8 - git push -f origin main // if yon not have branch (only used)

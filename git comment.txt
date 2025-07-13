@@ -1,0 +1,62 @@
+git clone + url http
+git status
+git add <file>/ git add . <add all file>
+git commit -m "Note Comment"
+git push origin main
+git pull origin main 
+
+git push -f origin main
+
+Check remote
+git remote -v
+git log
+git log --oneline
+
+
+git checkout -b "namebranch" create branch
+git checkout  "namebranch" change to branch
+git branch -d for delete branch
+git push origin "namebranch" for push to branch
+git merge "branch" 
+
+1. Save Your Changes
+
+    Save any work you’re editing in your code editor.
+
+2. Check Git Status
+
+git status
+
+    This shows your current changes and helps avoid surprises.
+
+3. Stash or Commit Changes
+
+Option 1: Commit Your Changes
+
+git add .
+git commit -m "Save current work"
+
+    This permanently saves your changes in your local repository.
+
+Option 2: Stash Your Changes (if you’re not ready to commit)
+
+git stash
+
+    This temporarily saves your changes and clears your working directory.
+
+4. Pull the Latest Changes
+
+git pull origin <branch_name>
+
+    Replace <branch_name> with your current branch, typically main or master.
+
+5. Restore Stashed Changes (if used)
+
+git stash pop
+
+    This reapplies your saved changes and may trigger a conflict if the same files were modified remotely.
+
+6. Resolve Any Conflicts (if needed)
+
+    Open the files with conflicts, look for <<<<<<<, =======, and >>>>>>> markers.
+    Decide which changes to keep, then save and commit the resolved files.
