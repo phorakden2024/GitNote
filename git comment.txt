@@ -13,6 +13,9 @@ git log
 git log --oneline
 
 
+git log --oneline --decorate --graph //If you see your commit but not on GitHub → just push.
+
+
 git checkout -b "namebranch" create branch
 git checkout  "namebranch" change to branch
 git branch -d for delete branch
